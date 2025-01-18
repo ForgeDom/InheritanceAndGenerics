@@ -1,13 +1,12 @@
-﻿using Patterns_1.AbstractFactory;
-
+﻿using Patterns_2.Adapter;
 namespace Inheritance_and_Generics
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             ClientPart client = new ClientPart();
-            client.Main();
+            ClientPart.Main(args);
         }
     }
 }

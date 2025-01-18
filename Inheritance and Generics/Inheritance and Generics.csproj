@@ -11,6 +11,7 @@
 	
   <ItemGroup>
     <ProjectReference Include="..\Patterns_1\Patterns_1.csproj" />
+    <ProjectReference Include="..\Patterns_2\Patterns_2.csproj" />
   </ItemGroup>
 
 </Project>
