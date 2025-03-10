@@ -1,9 +1,10 @@
-﻿using Patterns_2.Adapter;
+﻿using Patterns_1.Singleton;
+
 namespace Inheritance_and_Generics
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ClientPart client = new ClientPart();
             ClientPart.Main(args);
