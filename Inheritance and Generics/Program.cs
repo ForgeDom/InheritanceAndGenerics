@@ -1,4 +1,4 @@
-﻿using Patterns_3.Chain_Of_Responsibility;
+﻿using Patterns_3.Memento;
 
 namespace Inheritance_and_Generics
 {
@@ -6,7 +6,7 @@ namespace Inheritance_and_Generics
     {
         public static void Main(string[] args)
         {
-            
+            ClientPart.Main(args);
         }
     }
 }
