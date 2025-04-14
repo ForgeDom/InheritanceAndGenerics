@@ -1,6 +1,6 @@
 namespace Patterns_3.Mediator;
 
-public class IMediator
+public interface IMediator
 {
-    
+    void Notify(object sender);
 }

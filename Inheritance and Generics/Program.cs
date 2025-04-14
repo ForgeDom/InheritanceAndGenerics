@@ -1,4 +1,4 @@
-﻿using Patterns_3.Memento;
+﻿using Patterns_3.Mediator;
 
 namespace Inheritance_and_Generics
 {
@@ -6,7 +6,8 @@ namespace Inheritance_and_Generics
     {
         public static void Main(string[] args)
         {
-            ClientPart.Main(args);
+            var client = new ClientPart();
+            client.Main();
         }
     }
 }
